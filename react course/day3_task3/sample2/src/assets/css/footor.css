@@ -1,0 +1,25 @@
+.footer-container {
+    background-color: black;
+    color: #ccc; 
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .keywords {
+    margin-top: 10px;
+  }
+  
+  .keywords span {
+    margin: 0 10px;
+    font-weight: bold;
+    text-shadow: 0 0 10px #ffd700;
+  }
+  

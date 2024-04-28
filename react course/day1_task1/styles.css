@@ -1,0 +1,79 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body{
+    height: 100vh;
+    background-color:gray;
+    justify-content: center;
+    
+}
+
+/* start of header */
+
+.header-area {
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.5));
+    position:sticky;
+  }
+
+
+.nav-links{
+  display: flex;
+  justify-content: center;
+  background:black;
+  padding: 20px 20px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+
+}
+.nav-links li{
+  list-style: none;
+  margin: 0 12px;
+}
+
+
+
+.nav-links li a{
+  position: relative;
+  color: darkgray;
+  font-size: 30px;
+  font-weight: 500;
+  padding: 6px 0;
+  text-decoration: none;
+}
+.nav-links li a:before{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 3px;
+  width: 0%;
+  background: darkgray;
+  border-radius: 12px;
+  transition: all 0.4s ease;
+}
+.nav-links li a:hover:before{
+  width: 100%;
+}
+
+ /* to make it draw from center */
+.nav-links li.center a:before{
+  left: 50%;
+  transform: translateX(-50%);
+  
+}
+
+/* end of header */
+
+
+
+
+
+
+

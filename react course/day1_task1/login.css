@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, helvetica,Verdana;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: darkgray;
+    
+}
+
+
+
+
+div {
+    text-align: center;
+    background-color: black;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 6.5px 1.7px 5.3px -11px rgba(0, 0, 0, 0.053),
+                25.6px 6.7px 17.9px -11px rgba(0, 0, 0, 0.077),
+                114px 30px 80px -11px rgba(0, 0, 0, 0.13);
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+ 
+ 
+ input, textarea,button {
+    margin: 5px;
+    padding: 8px;
+    border-radius: 8px;
+    
+}
+
+
+input::placeholder, textarea::placeholder {
+    color:black;
+    font-weight: 80px;
+}
+
+.radio{
+    color: white;
+}

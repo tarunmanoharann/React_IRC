@@ -1,0 +1,22 @@
+{
+    "user":[
+        {
+            "id":1,
+            "username":"tarun m",
+            "password":"1234"
+        },
+        {
+            "id":2,
+            "username":"vadakku ",
+            "password":"1234"
+        }
+
+    ],
+
+    "products":[
+        {
+            "pid":1,
+            "product_name":"Laptop"
+        }
+    ]
+}
